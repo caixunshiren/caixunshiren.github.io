@@ -45,10 +45,19 @@
                   {%- endif -%}
                 </a>
               </li>
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog
-                  {%- if page.url contains 'blog' -%}
+              <!-- Misc -->
+              <li class="nav-item {% if page.url contains 'misc' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/misc/' | relative_url }}">Misc
+                  {%- if page.url contains 'misc' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
+              <!-- Projects -->
+              <li class="nav-item {% if page.url contains 'projects' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/projects/' | relative_url }}">Projects
+                  {%- if page.url contains 'projects' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -56,17 +65,17 @@
 
               <!-- CV -->
               <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV
+                <a class="nav-link" href="{{ '/cv/' | relative_url }}">Resume
                   {%- if page.url contains 'cv' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
 
-              <!-- Repositories -->
-              <li class="nav-item {% if page.url contains 'repositories' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/repositories/' | relative_url }}">Repositories
-                  {%- if page.url contains 'repositories' -%}
+              <!-- Publications -->
+              <li class="nav-item {% if page.url contains 'publications' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/publications/' | relative_url }}">Publications
+                  {%- if page.url contains 'publications' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>

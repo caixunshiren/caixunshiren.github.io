@@ -1,0 +1,155 @@
+I"Å<!-- about.html -->
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;div class="post"&gt;
+    &lt;header class="post-header"&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;h1 class="post-title" style="font: size 20%;"&gt;
+          &gt;. 
+          &lt;span class="font-weight-bold" id="typewriter"&gt;&lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;br&gt;
+      &lt;hr&gt;
+      
+    &lt;/header&gt;
+
+    &lt;article&gt;
+    
+      &lt;div class="clearfix"&gt;
+        &lt;!-- index.html --&gt;
+  &lt;div class="post"&gt;
+    &lt;header class="post-header"&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;h1 class="post-title" style="font: size 10%;"&gt;
+        &lt;center&gt;
+          &gt;. 
+       &lt;!-- &lt;span class="font-weight-bold"&gt;Jack (Xun) Cai&lt;/span&gt; --&gt;
+       &lt;span class="font-weight-bold" id="typewriter"&gt;&lt;/span&gt;
+        &lt;/center&gt;
+      &lt;/h1&gt;
+      &lt;script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"&gt;&lt;/script&gt;
+  
+      &lt;script type="text/javascript"&gt;
+        var app = document.getElementById('typewriter');
+
+        var typewriter = new Typewriter(app, {
+          loop: true,
+          delay: 75,
+        });
+
+        typewriter
+          .start()
+          .pauseFor(1500)
+          .typeString('Hey there')
+          .pauseFor(2000)
+          .deleteAll()
+          .typeString('Welcome to my personal website')
+          .deleteAll()
+          .pauseFor(2000)
+          .typeString('I am')
+          .pauseFor(500)
+          .typeString(' ...')
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString('Jack (Xun) Cai')
+          .pauseFor(1000000)
+      &lt;/script&gt;
+      &lt;br&gt;
+      &lt;center&gt;
+      &lt;p class="desc"&gt;Engineer &amp;nbsp; | &amp;nbsp; Artist &amp;nbsp; | &amp;nbsp; Innovator&lt;/p&gt;
+      &lt;/center&gt;
+
+      &lt;div class="social"&gt;
+        &lt;div class="contact-icons"&gt;
+        &lt;a href="mailto:%6A%61%63%6B.%63%61%69@%6D%61%69%6C.%75%74%6F%72%6F%6E%74%6F.%63%61" title="email"&gt;&lt;i class="fas fa-envelope"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="https://github.com/caixunshiren" title="GitHub"&gt;&lt;i class="fab fa-github"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="https://www.linkedin.com/in/jackcaixun" title="LinkedIn"&gt;&lt;i class="fab fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="http://wallstreetbots.org:8000" title="RSS Feed"&gt;&lt;i class="fas fa-rss-square"&gt;&lt;/i&gt;&lt;/a&gt;
+        
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+    &lt;/header&gt;
+
+    &lt;article&gt;
+
+      &lt;div class="row"&gt;
+        &lt;div class="column" style="margin:5px; margin:0 auto;"&gt;&lt;figure&gt;
+</code></pre></div></div>
+
+<picture>
+
+    <!-- Fallback to the original file -->
+    <img style="object-fit:cover; width:250px; height:300px;" src="/assets/img/hyperlock.png" class="img-fluid z-depth-1 rounded" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+<figcaption class="caption">Research</figcaption>
+
+<p>&lt;/figure&gt;
+&lt;/div&gt;
+            &lt;div class="column" style="margin:5px; margin:0 auto;"&gt;<figure></figure></p>
+
+<picture>
+
+    <!-- Fallback to the original file -->
+    <img style="object-fit:cover; width:250px; height:300px;" src="/assets/img/solardemo.gif" class="img-fluid z-depth-1 rounded" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+<figcaption class="caption">Projects</figcaption>
+
+<p>&lt;/figure&gt;
+&lt;/div&gt;
+            &lt;div class="column" style="margin:5px; margin:0 auto;"&gt;<figure></figure></p>
+
+<picture>
+
+    <!-- Fallback to the original file -->
+    <img style="object-fit:cover; width:250px; height:300px;" src="/assets/img/s8.gif" class="img-fluid z-depth-1 rounded" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+<figcaption class="caption">Skateboard</figcaption>
+
+<p>&lt;/figure&gt;
+&lt;/div&gt;
+          &lt;/div&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;/article&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      &lt;/div&gt;
+
+      &lt;hr&gt;
+
+    &lt;/article&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+<script type="text/javascript">
+  var app = document.getElementById('typewriter');
+
+  var typewriter = new Typewriter(app, {
+    loop: false,
+    delay: 75,
+  });
+
+  typewriter
+    .start()
+    .typeString('About Me')
+</script>
+
+:ET

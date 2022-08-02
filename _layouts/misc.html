@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <br>
+          <br>
+          <br>
+          <h1 class="post-title" style="font: size 20%;">
+              >. 
+              <span class="font-weight-bold" id="typewriter"></span>
+          </h1>
+          <br>
+          <p>Random facts about Jack.</p>
+          <hr>
+        </header>
+
+        <article>
+        
+          <div class="clearfix">
+            {{ content }}
+          </div>
+
+          <hr>
+
+        </article>
+        <br>
+        <br>
+</div>
+
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  
+<script type="text/javascript">
+  var app = document.getElementById('typewriter');
+
+  var typewriter = new Typewriter(app, {
+    loop: false,
+    delay: 75,
+  });
+
+  typewriter
+    .start()
+    .typeString('Miscellaneous')
+</script>
