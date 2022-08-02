@@ -3,18 +3,10 @@
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
-    {% for i in site.imagemagick.widths -%}
-      <source 
-        class="responsive-img-srcset"
-        media="(max-width: {{ i }}px)" 
-        srcset="{{ img_path | relative_url }}-{{ i }}.webp"
-      />
-    {% endfor -%}
-    {% endif %}
 
     <!-- Fallback to the original file -->
     <img 
+      style="object-fit:cover; width:250px; height:300px;"
       src="{{ include.path | relative_url }}"
       {% if include.class %}class="{{ include.class }}"{% endif %}  
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 

@@ -16,7 +16,7 @@ layout: default
           <h1 class="post-title" style="font: size 10%;">
             <center>
               >. 
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }} {{ site.official_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}</span>
+           <span class="font-weight-bold">{{ site.first_name }} {{ site.official_name }} {{ site.last_name }}</span>
             </center>
           </h1>
           <br>
@@ -33,55 +33,48 @@ layout: default
         </header>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+          <div class="profile float-right">
+            {%- assign profile_image_path = 's8.gif' | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_cicular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+            {%- assign caption = "Skating" -%}
 
-              {% include figure.html 
+            {% include figure.html 
               path=profile_image_path 
               class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
-
-          <div class="clearfix">
-            {{ content }}
+              caption = caption
+              -%}    
           </div>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+          <div class="profile float-left">
+            {%- assign profile_image_path = 'hyperlock.png' | prepend: 'assets/img/' -%}
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+            {%- assign caption = "Research" -%}
+
+            {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              caption = caption
+              -%}
+           
           </div>
-          {%- endif %}
+
+          <div class="profile" style = "margin: 0 auto;">
+            {%- assign profile_image_path = 'solardemo.gif' | prepend: 'assets/img/' -%}
+
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+            {%- assign caption = "Projects" -%}
+
+            {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              caption = caption
+              -%}
+                        
+          </div>
+
         </article>
-
+        <br>
+        <br>
 </div>
