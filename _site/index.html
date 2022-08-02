@@ -131,9 +131,37 @@
           <h1 class="post-title" style="font: size 10%;">
             <center>
               &gt;. 
-           <span class="font-weight-bold">Jack (Xun) Cai</span>
+           <!-- <span class="font-weight-bold">Jack (Xun) Cai</span> -->
+           <span class="font-weight-bold" id="typewriter"></span>
             </center>
           </h1>
+          <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  
+          <script type="text/javascript">
+            var app = document.getElementById('typewriter');
+
+            var typewriter = new Typewriter(app, {
+              loop: true,
+              delay: 75,
+            });
+
+            typewriter
+              .start()
+              .pauseFor(1500)
+              .typeString('Hey there')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('Welcome to my personal website')
+              .deleteAll()
+              .pauseFor(2000)
+              .typeString('I am')
+              .pauseFor(500)
+              .typeString(' ...')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('Jack (Xun) Cai')
+              .pauseFor(1000000)
+          </script>
           <br>
           <center>
           <p class="desc">Engineer   |   Artist   |   Innovator</p>
@@ -161,7 +189,7 @@
     <!-- Fallback to the original file -->
     <img style="object-fit:cover; width:250px; height:300px;" src="/assets/img/s8.gif" class="img-fluid z-depth-1 rounded" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  </picture><figcaption class="caption">Skating</figcaption>
+  </picture><figcaption class="caption">Skateboard</figcaption>
 
 </figure>
 </div>

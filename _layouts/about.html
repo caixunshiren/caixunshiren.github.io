@@ -16,9 +16,37 @@ layout: default
           <h1 class="post-title" style="font: size 10%;">
             <center>
               >. 
-           <span class="font-weight-bold">{{ site.first_name }} {{ site.official_name }} {{ site.last_name }}</span>
+           <!-- <span class="font-weight-bold">{{ site.first_name }} {{ site.official_name }} {{ site.last_name }}</span> -->
+           <span class="font-weight-bold" id="typewriter"></span>
             </center>
           </h1>
+          <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  
+          <script type="text/javascript">
+            var app = document.getElementById('typewriter');
+
+            var typewriter = new Typewriter(app, {
+              loop: true,
+              delay: 75,
+            });
+
+            typewriter
+              .start()
+              .pauseFor(1500)
+              .typeString('Hey there')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('Welcome to my personal website')
+              .deleteAll()
+              .pauseFor(2000)
+              .typeString('I am')
+              .pauseFor(500)
+              .typeString(' ...')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('Jack (Xun) Cai')
+              .pauseFor(1000000)
+          </script>
           <br>
           <center>
           <p class="desc">Engineer &nbsp; | &nbsp; Artist &nbsp; | &nbsp; Innovator</p>
@@ -37,7 +65,7 @@ layout: default
             {%- assign profile_image_path = 's8.gif' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-            {%- assign caption = "Skating" -%}
+            {%- assign caption = "Skateboard" -%}
 
             {% include figure.html 
               path=profile_image_path 
