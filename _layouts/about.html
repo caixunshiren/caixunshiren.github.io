@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
@@ -61,21 +63,10 @@ layout: default
         </header>
 
         <article>
-          <div class="profile float-right">
-            {%- assign profile_image_path = 's8.gif' | prepend: 'assets/img/' -%}
 
-            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-            {%- assign caption = "Skateboard" -%}
-
-            {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              caption = caption
-              -%}    
-          </div>
-
-          <div class="profile float-left">
-            {%- assign profile_image_path = 'hyperlock.png' | prepend: 'assets/img/' -%}
+          <div class="row">
+            <div class="column" style="margin:5px; margin:0 auto;">
+              {%- assign profile_image_path = 'hyperlock.png' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
             {%- assign caption = "Research" -%}
@@ -85,11 +76,9 @@ layout: default
               class=profile_image_class
               caption = caption
               -%}
-           
-          </div>
-
-          <div class="profile" style = "margin: 0 auto;">
-            {%- assign profile_image_path = 'solardemo.gif' | prepend: 'assets/img/' -%}
+            </div>
+            <div class="column" style="margin:5px; margin:0 auto;">
+              {%- assign profile_image_path = 'solardemo.gif' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
             {%- assign caption = "Projects" -%}
@@ -99,10 +88,23 @@ layout: default
               class=profile_image_class
               caption = caption
               -%}
-                        
+            </div>
+            <div class="column" style="margin:5px; margin:0 auto;">
+              {%- assign profile_image_path = 's8.gif' | prepend: 'assets/img/' -%}
+
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+            {%- assign caption = "Skateboard" -%}
+
+            {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              caption = caption
+              -%}
+            </div>
           </div>
 
         </article>
         <br>
         <br>
 </div>
+
