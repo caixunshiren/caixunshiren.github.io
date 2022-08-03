@@ -1,0 +1,23 @@
+I"^<h1 id="transformer-from-scratch">Transformer From Scratch</h1>
+<p>Re-implementing the transformer mechanism from scratch (practice purpose)</p>
+
+<p>Based on the famous paper: Attention Is All You Need</p>
+
+<p>Done:</p>
+<ol>
+  <li>attention architecture</li>
+  <li>transformer architecture</li>
+  <li>position encoding</li>
+</ol>
+
+<p>TODO:</p>
+<ol>
+  <li>training code</li>
+  <li>zero paddings for batched training</li>
+  <li>initial embeddings</li>
+</ol>
+
+<p>SIDE NOTE:</p>
+
+<p>The rest is very similar to other deep learning models I have written in PyTorch so I will probably stop the project here.</p>
+:ET

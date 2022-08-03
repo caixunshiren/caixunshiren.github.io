@@ -1,0 +1,6 @@
+I"{<h1 id="pytorch-metal-oxide-memristor-crossbar">PyTorch Metal-Oxide Memristor Crossbar</h1>
+<p>PyTorch implementation of the paper <a href="https://ieeexplore.ieee.org/abstract/document/9047174">“Comprehensive Compact Phenomenological Modeling of Integrated Metal-Oxide Memristors”</a>  using the crossbar line resistance model derived by <a href="https://ieeexplore.ieee.org/document/6473873">[2]</a>.</p>
+
+<p>This documentation page is still in construction as part of the summer research 2022. The code is done and the final product will be released as a python package for non-linear memristor crossbar device simulation.</p>
+
+:ET

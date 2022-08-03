@@ -1,0 +1,390 @@
+I"K<!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">project | machine learning</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/wallstreetbots/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/wsbots-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/wsbots-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/wsbots-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/wsbots.jpeg" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Wall Street Bots</h3>
+          <p class="card-text">Building an Automatic Stock Trading Platform based on Artificial Intelligence.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/UTMIST/WallStreetBots"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Medium Article">
+                <a href="https://utorontomist.medium.com/wall-street-bots-building-an-automatic-stock-trading-platform-based-on-artificial-intelligence-4f49df89ac41"><i class="fab fa-medium"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Demo">
+                <a href="http://wallstreetbots.org:8000"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/humerusdeck/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/humerus-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/humerus-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/humerus-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/humerus.png" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Humerus Deck</h3>
+          <p class="card-text">The humerus deck is a NLP project designed to win Cards Against Humanity.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/UTMIST/Humerus"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/transformer-from-scratch/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Transformer</h3>
+          <p class="card-text">I build a transformer module in PyTorch from scratch in order to understand its architecture.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/transformer-from-scratch/blob/main/README.md"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">research | electrical engineering</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/hyperlock/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://github.com/caixunshiren/HyperLock/blob/main/figure/paper/Figure%201?raw=true-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://github.com/caixunshiren/HyperLock/blob/main/figure/paper/Figure%201?raw=true-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://github.com/caixunshiren/HyperLock/blob/main/figure/paper/Figure%201?raw=true-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://github.com/caixunshiren/HyperLock/blob/main/figure/paper/Figure%201.png?raw=true" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Hyperlock</h3>
+          <p class="card-text">Hardware cryptography algorithm I invented using memristor circuit.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/HyperLock"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="pdf">
+                <a href="https://arxiv.org/pdf/2201.11362.pdf"><i class="fas fa-file-pdf"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/torch-tiox-xbar/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://github.com/caixunshiren/pytorch-metal-oxide-memristor-crossbar/blob/main/Notebooks/multiple_conductance_cycle?raw=true-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://github.com/caixunshiren/pytorch-metal-oxide-memristor-crossbar/blob/main/Notebooks/multiple_conductance_cycle?raw=true-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://github.com/caixunshiren/pytorch-metal-oxide-memristor-crossbar/blob/main/Notebooks/multiple_conductance_cycle?raw=true-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://github.com/caixunshiren/pytorch-metal-oxide-memristor-crossbar/blob/main/Notebooks/multiple_conductance_cycle.png?raw=true" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Torch-TiOx-Xbar</h3>
+          <p class="card-text">Comprehensive line resistance model of TiOx 0T1R memristor crossbar in PyTorch.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/pytorch-metal-oxide-memristor-crossbar"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/hyper-x-arrays/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hyperxarrays-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hyperxarrays-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hyperxarrays-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hyperxarrays.png" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Hyper-X-Arrays</h3>
+          <p class="card-text">Hardware architecture of Hyperlock on TiOx 0T1R memristor arrays.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/HyperXArrays/tree/main/HyperXArrays"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">research | machine learning</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/bgl-eeg/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/caixunshiren/GCNGDE_Simulation_for_EGG_analysis/main/Figures/brain%20state%20progress-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://raw.githubusercontent.com/caixunshiren/GCNGDE_Simulation_for_EGG_analysis/main/Figures/brain%20state%20progress-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://raw.githubusercontent.com/caixunshiren/GCNGDE_Simulation_for_EGG_analysis/main/Figures/brain%20state%20progress-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://raw.githubusercontent.com/caixunshiren/GCNGDE_Simulation_for_EGG_analysis/main/Figures/brain%20state%20progress.png" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Brain Graph Learning for EEG</h3>
+          <p class="card-text">Analyzing EEG dataset using graph convolutional neural network and graph neural ODE.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/GCNGDE_Simulation_for_EGG_analysis"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/neuralODE-derive/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://tkipf.github.io/graph-convolutional-networks/images/gcn_web-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://tkipf.github.io/graph-convolutional-networks/images/gcn_web-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://tkipf.github.io/graph-convolutional-networks/images/gcn_web-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://tkipf.github.io/graph-convolutional-networks/images/gcn_web.png" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Graph Convolutional Neural ODE</h3>
+          <p class="card-text">Mathematical derivation of the vectorized adjoint sensitivity method for GCNODE.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/Vectorized-Adjoint-Sensitivity-Method-for-Graph-Convolutional-Neural-ODE"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="pdf">
+                <a href="https://github.com/caixunshiren/Vectorized-Adjoint-Sensitivity-Method-for-Graph-Convolutional-Neural-ODE/blob/main/Vectorized_Adjoint_Sensitivity_Method_for_Graph_Convolutional_Neural_Ordinary_Differential_Equations_V_2.pdf"><i class="fas fa-file-pdf"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">misc</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/roots/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/062/086/datas/gallery-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/062/086/datas/gallery-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/062/086/datas/gallery-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/062/086/datas/gallery.jpg" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Root</h3>
+          <p class="card-text">Crowd-sourcing for stronger communities. Community based financing</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/ricohasgithub/Roots-web"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Demo">
+                <a href="https://devpost.com/software/roots-zovgf2"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/solar-system-rocket-sim/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/solardemo.gif-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/solardemo.gif-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/solardemo.gif-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/solardemo.gif" style="object-fit:cover; width:250px; height:100px;" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h3 class="card-title">Solar System Rocket Simulator</h3>
+          <p class="card-text"></p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/Solar-System-and-Rocket-Simulator-OpenGL"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="pdf">
+                <a href="https://docs.google.com/document/d/15sZR0XJlNHB1VkSrH1xI13zWzyErLJjVL31p5HAFX4A/edit?usp=sharing"><i class="fas fa-file-pdf"></i></a>
+              </div>
+            </div>
+            &nbsp;<div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Demo">
+                <a href="https://docs.google.com/document/d/1LG44OUrMldoSnHEnU_RXXMiqQ0Q4AJrnBEoi0PsZjMk/edit?usp=sharing"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/other-projects/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h3 class="card-title">Other projects</h3>
+          <p class="card-text">An archive of my other projects</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/caixunshiren/"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div></div>
+:ET

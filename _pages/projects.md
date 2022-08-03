@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:  Below are the projects I did. I tried to document all but due to time constraint, not every project are well documented so you may be confused what they are doing. If you want to check out my projects with detailed documentation, I recommend you to start with WallStreetBots, Humerus, Hyperlock, Roots, and the Solar System Rocket Simulator.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [project | machine learning, research | electrical engineering, research | machine learning, misc]
 horizontal: false
 ---
 

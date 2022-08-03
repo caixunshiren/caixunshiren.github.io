@@ -8,12 +8,12 @@
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
-        {%- include figure.html
+        {%- include figure2.html
           path=project.img
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <h3 class="card-title">{{ project.title }}</h3>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
@@ -21,12 +21,30 @@
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
               </div>
-              {%- if project.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
+            </div>
+            &nbsp; 
+            {%- endif %}
+            {%- if project.medium -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Medium Article">
+                <a href="{{ project.medium }}"><i class="fab fa-medium"></i></a>
+              </div>
+            </div>
+            &nbsp; 
+            {%- endif %}
+            {%- if project.pdf -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="pdf">
+                <a href="{{ project.pdf }}"><i class="fas fa-file-pdf"></i></a>
+              </div>
+            </div>
+            &nbsp; 
+            {%- endif %}
+            {%- if project.website -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Demo">
+                <a href="{{ project.website }}"><i class="fas fa-globe"></i></a>
+              </div>
             </div>
             {%- endif %}
           </div>
