@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description:  Below are the projects I did. I tried to document all but due to time constraint, not every project are well documented so you may be confused what they are doing. If you want to check out my projects with detailed documentation, I recommend you to start with WallStreetBots, Humerus, Hyperlock, Roots, and the Solar System Rocket Simulator.
+description:  Below are the projects I did. I tried to document all but due to time constraint, not every project is well documented so you may be confused what they are doing. If you want to check out my projects with detailed documentation, I recommend you to start with WallStreetBots.
 nav: true
 nav_order: 2
 display_categories: [project | machine learning, research | electrical engineering, research | machine learning, misc]
