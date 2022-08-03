@@ -19,7 +19,9 @@ layout: default
 
         <article>
           <div class="clearfix">
-            {{ content }}
+            <div class="publications">
+              {% bibliography -f papers%}
+            </div>
           </div>
 
           <hr>
