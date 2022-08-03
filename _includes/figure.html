@@ -5,6 +5,7 @@
   <picture>
 
     <!-- Fallback to the original file -->
+    <a href="{{include.url}}">
     <img 
       style="object-fit:cover; width:250px; height:300px;"
       src="{{ include.path | relative_url }}"
@@ -20,6 +21,7 @@
       {% if include.zoomable %}data-zoomable{% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     />
+    </a>
 
   </picture>
 
