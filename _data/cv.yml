@@ -8,6 +8,7 @@
       year: 2024
       description:
         - title: "cGPA: 3.86 -- Dean's Honor List."
+          transcript: jack_cai_transcript.pdf
           contents:
             - "Coursework 2022: MACHINE LEARNING | NLP | SYS.SOFTWARE | NEURAL NETWORKS | MATRIX ALGEBRA & OPT | SOFTWARE ENG."
             - "Coursework 2021: DIGITAL & COMPUT.SYS | ODE | VECTOR CALC | PROBABILITY & STAT."

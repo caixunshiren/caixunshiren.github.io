@@ -19,7 +19,12 @@
                 {% for item in content.description %}
                   <li>
                     {% if item.contents %}
-                      <span class="item-title font-italic">{{ item.title }}</span>
+                      <span class="item-title font-italic">{{ item.title }}
+                        {% if item.transcript %}
+                        <a href="{{ item.transcript | prepend: 'assets/pdf/' | relative_url}}">
+                          transcript</a>
+                        {% endif %}
+                      </span>
                       <ul class="subitems">
                       {% for subitem in item.contents %}
                         <li><span class="subitem font-weight-light">{{ subitem }}</span></li>
