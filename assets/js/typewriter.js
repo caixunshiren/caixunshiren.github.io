@@ -1,17 +1,1 @@
-import Typewriter from '../typewriter-effect/dist/core';
-
-var app = document.getElementById('app');
-
-var typewriter = new Typewriter(app, {
-    loop: true
-});
-
-typewriter.typeString('Hello World!')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('Strings can be removed')
-    .pauseFor(2500)
-    .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
-    .pauseFor(2500)
-    .start();
+import Typewriter from"../typewriter-effect/dist/core";var app=document.getElementById("app"),typewriter=new Typewriter(app,{loop:!0});typewriter.typeString("Hello World!").pauseFor(2500).deleteAll().typeString("Strings can be removed").pauseFor(2500).deleteChars(7).typeString("<strong>altered!</strong>").pauseFor(2500).start();
